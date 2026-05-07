@@ -58,19 +58,6 @@ In this example:
 * `K` ensures the key exists in the object
 * The return type is automatically correct
 
-This prevents errors and improves type safety.
-
-## Why Generics Are Important
-
-Generics help us:
-
-* Write reusable code
-* Avoid duplication (DRY principle)
-* Keep strong type safety
-* Make code easier to maintain
-
 ## Conclusion
 
 Generics are one of the most powerful features of TypeScript. They allow developers to write flexible and reusable functions without losing type safety.
-
-By using generics, we can reduce repetition, prevent errors, and build scalable applications more efficiently.
