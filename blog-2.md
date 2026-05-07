@@ -1,0 +1,99 @@
+Perfect — here’s your **second blog (`blog-2.md`)**, written in the same **simple, natural, human style** and fully ready to copy-paste 👇
+
+---
+
+````md id="n4k8zb"
+# How Generics Make TypeScript Code Reusable and Type-Safe
+
+## Introduction
+
+When building applications, we often write similar logic for different types of data like strings, numbers, or objects. Writing separate functions for each type can make the code repetitive and harder to manage.
+
+This is where Generics in TypeScript become very useful. Generics allow us to write one flexible function that works with different types while still keeping type safety. In this blog, we will explore how generics help us write clean, reusable, and reliable code.
+
+## Problem Without Generics
+
+Without generics, we may end up writing duplicate functions like this:
+
+```ts
+function getString(value: string): string {
+  return value;
+}
+
+function getNumber(value: number): number {
+  return value;
+}
+````
+
+Here, the logic is the same, but we are repeating code for different types. This is not efficient.
+
+## Solution Using Generics
+
+Generics allow us to write a single function that works with any type.
+
+```ts id="sk9e4u"
+function getValue<T>(value: T): T {
+  return value;
+}
+```
+
+Now this function can be used with different types:
+
+```ts id="v86k2x"
+getValue<string>("hello");
+getValue<number>(42);
+getValue<boolean>(true);
+```
+
+This makes the code more flexible and reusable.
+
+## Generics with Objects
+
+Generics are even more powerful when working with objects.
+
+```ts id="d2s4q9"
+function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
+  return obj[key];
+}
+```
+
+In this example:
+
+* `T` represents the object type
+* `K` ensures the key exists in the object
+* The return type is automatically correct
+
+This prevents errors and improves type safety.
+
+## Why Generics Are Important
+
+Generics help us:
+
+* Write reusable code
+* Avoid duplication (DRY principle)
+* Keep strong type safety
+* Make code easier to maintain
+
+## Conclusion
+
+Generics are one of the most powerful features of TypeScript. They allow developers to write flexible and reusable functions without losing type safety.
+
+By using generics, we can reduce repetition, prevent errors, and build scalable applications more efficiently.
+
+```
+
+---
+
+Now you have:
+✅ `solutions.ts`  
+✅ `blog-1.md`  
+✅ `blog-2.md`  
+
+👉 You’re basically **submission-ready** 🚀
+
+If you want, I can quickly:
+- Check your **repo before you submit**
+- Or help you **upload everything to GitHub step-by-step**
+
+Just say 👍
+```
