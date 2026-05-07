@@ -3,9 +3,12 @@
 
 ## Introduction
 
-TypeScript is used to make JavaScript safer by checking types before running the code. But there is one keyword that breaks this safety — `any`.
+One of the main reasons developers use TypeScript is to catch errors before the code runs. It helps us write safer and more reliable programs by enforcing types.
 
-Many developers use `any` to avoid errors quickly, but it can create bigger problems later. A better and safer option is `unknown`.
+However, there is one keyword that completely removes this safety — `any`. While it may seem convenient at first, using `any` can lead to unexpected bugs and runtime errors. 
+
+A better alternative is `unknown`, which still allows flexibility but forces us to handle data more carefully. In this blog, we will understand why `any` is risky, why `unknown` is safer, and how type narrowing helps us write better code.
+
 
 ## Why `any` is Called a "Type Safety Hole"
 
