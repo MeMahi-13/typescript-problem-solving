@@ -19,8 +19,7 @@ function getNumber(value: number): number {
   return value;
 }
 ````
-
-Here, the logic is the same, but we are repeating code for different types. This is not efficient.
+Here, the logic is the same, but we are repeating code for different types.
 
 ## Solution Using Generics
 

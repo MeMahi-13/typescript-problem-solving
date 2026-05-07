@@ -63,9 +63,7 @@ function handleValue(value: unknown) {
 In this example:
 
 * We check the type using `typeof`
-* TypeScript understands the correct type inside each block
-
-This makes the code safe and predictable.
+* TypeScript understands the correct type inside each block. This makes the code safe and predictable.
 
 ## Conclusion
 
