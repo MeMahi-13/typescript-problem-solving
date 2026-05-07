@@ -1,8 +1,3 @@
-Perfect — here’s your **second blog (`blog-2.md`)**, written in the same **simple, natural, human style** and fully ready to copy-paste 👇
-
----
-
-````md id="n4k8zb"
 # How Generics Make TypeScript Code Reusable and Type-Safe
 
 ## Introduction
@@ -79,21 +74,3 @@ Generics help us:
 Generics are one of the most powerful features of TypeScript. They allow developers to write flexible and reusable functions without losing type safety.
 
 By using generics, we can reduce repetition, prevent errors, and build scalable applications more efficiently.
-
-```
-
----
-
-Now you have:
-✅ `solutions.ts`  
-✅ `blog-1.md`  
-✅ `blog-2.md`  
-
-👉 You’re basically **submission-ready** 🚀
-
-If you want, I can quickly:
-- Check your **repo before you submit**
-- Or help you **upload everything to GitHub step-by-step**
-
-Just say 👍
-```
