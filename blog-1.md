@@ -1,8 +1,4 @@
-Got it — you want **one clean `.md` file, no breaks, ready to copy-paste**. Here you go 👇
 
----
-
-````md
 # Why `any` is a Type Safety Hole and `unknown` is a Safer Choice
 
 ## Introduction
@@ -78,16 +74,3 @@ This makes the code safe and predictable.
 * `unknown` is safer because it forces type checking
 * Type narrowing helps us safely work with unknown data
 
-Using `unknown` instead of `any` is a better practice for writing reliable and bug-free TypeScript code.
-
-```
-
----
-
-Now you can just:
-👉 Copy  
-👉 Paste into `blog-1.md`  
-👉 Done ✅
-
-If you want, I’ll do the **second blog in the same format** too.
-```
